@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.전체 {
+  border: 5px solid red;
+  /* 전체의 넒이는 부모인 body를 따르고
+    전체의 높이는 자식인 김일동을 따른다 */
+  padding: 20px;
+}
+
+.김일동 {
+  border: 5px solid blue;
+  /* 김일동의 넒이는 부모인 body를 따르고
+     높이는 자식인 글자를 따른다  */
+}
+
+.김이동 {
+  border: 5px solid green;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.김삼동 {
+  margin-top: 30px;
+  border: 5px solid skyblue;
+}
+
+.김삼동 .삼자 {
+  background-color: gray;
+  width: 33.3333%;
+  float: left;
+}
+
+.김사동 {
+  border: 5px solid plum;
+}
+
+.김사동 .사자 {
+  background-color: darkorchid;
+  width: 50%;
+  float: left;
+}

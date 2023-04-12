@@ -1,0 +1,21 @@
+div {
+  color: brown;
+  background-color: antiquewhite;
+  height: 300px;
+}
+
+.인라인 {
+  background-color: azure;
+  height: 300px;
+  width: 300px;
+}
+
+button {
+  width: 50px;
+  height: 30px;
+}
+
+img {
+  width: 50px;
+  height: 30px;
+}

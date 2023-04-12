@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>연결</div>
+    <!-- 
+        ☆블록형식 태그 width, height값 인식o 세로배열 
+        ☆인라인형식 태그 width, height값 인식x 가로배열 
+        ☆인라인-블록 태그 width, height 값 인식o 가로배열
+        가로배열(인라인)된 태그사이에 약간의 여백이 생김 (절대 안없어짐) 
+
+        *인라인요소이나 공간을 인식하는 예외 태그
+         -> button, img 태그
+    -->
+    <div>
+      인라인요소
+      <span class="인라인">삽입</span>
+      하기
+    </div>
+    <div>
+      <!-- 
+            b태그 -> 굵게
+            strong태그 -> 굵게(강조)
+            i태그 -> 기울임
+            em태그 -> 기울임(강조)
+         -->
+      <b>인라인요소</b>를 소개하겠습니다. <strong>인라인요소</strong>를
+      소개하겠습니다. <i>인라인요소</i>를 소개하겠습니다. <em>인라인요소</em>를
+      소개하겠습니다. 인라인요소를 소개하겠습니다.
+      <button>버튼</button>
+      <img
+        src="https://img.megabox.co.kr/SharedImg/2023/04/02/TxwZm0ynDsUrVdi6niDfOVRVwHwxvuDD_230.jpg"
+      />
+    </div>
+    <a href="http://www.naver.com/" target="_blank">네이버</a>
+    <!-- targer="새창에 열지 말지" -->
+  </body>
+</html>

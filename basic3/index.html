@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>이름부르기</title>
+    <style>
+      /* 
+        이름부르기
+        class="이름명" 이름을 2개이상 만들 수 있음
+            다른 태그에서 중복하여 붙일 수 있음
+        id="유일한이름" 이름을 2개이상 만들 수 없음
+            다른 태그에서 중복하여 붙일 수 없음
+            사이트 전체에서 유일한 이름
+      */
+      div {
+        background-color: antiquewhite;
+        color: blue; /* 글자색 */
+      }
+      .color {
+        color: brown;
+      }
+      .a {
+        background-color: wheat;
+      }
+
+      #b {
+        background-color: gainsboro;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <시작태그></종료테그> -->
+    <!-- <열린태그></닫는태그 -->
+
+    <div class="a">영역입니다</div>
+    <div>영역입니다</div>
+    <div class="color a">영역입니다</div>
+    <div>영역입니다</div>
+    <div>영역입니다</div>
+    <div id="b">영역입니다</div>
+  </body>
+</html>

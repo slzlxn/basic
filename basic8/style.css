@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.약::after {
+  content: "";
+  /* after은 인라인요소 */
+  /* clear: both; 블록요소에만 적용*/
+  clear: both;
+  display: block;
+}
+
+.아빠 {
+  background-color: salmon;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.아빠 .자식 {
+  background-color: darkgrey;
+  width: 33.33%;
+  height: 100px;
+  float: left;
+}
+
+.팔수 {
+  margin-top: 30px;
+}
+
+.팔수 .자식8 {
+  width: 45%;
+  background-color: gainsboro;
+  float: left;
+  height: 100px;
+}
+
+.팔수 .자식1 {
+  margin-right: 10%;
+}

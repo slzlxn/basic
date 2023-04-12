@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 800px;
+}
+
+.전체 {
+  position: relative;
+  border: 5px solid blue;
+  width: 2000px;
+  margin: 30px auto 0;
+  height: 800px;
+  background-image: url(https://img.freepik.com/premium-vector/square-grid-paper-seamless-pattern-millimeter-paper-sheet-background_434359-268.jpg?w=2000);
+}
+.베너 {
+  width: 800px;
+  border: 5px solid cornflowerblue;
+  position: absolute;
+  left: 300px;
+  bottom: -1050px;
+}
+.베너 img {
+  width: 100%;
+}
